@@ -5,14 +5,38 @@
 		<meta charset="utf-8">
 		<style>
 			
+			body {
+				font-size: 62.5%;
+			}
+			
+			#edukiak {
+				width: 960px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			.errenkada {
+				height: 300px;
+			}
+			
+			.errenkada-ezkerra {
+				width: 50%;
+				float: left;
+				text-align: center;
+			}
+			
+			.errenkada-eskuina {
+				width: 50%;
+				float: right;
+				text-align: center;
+			}
+			
 			#iametza-logo-zaharra-irudia {
 				display: inline-block;
 			}
 			
 			#iametza-logo-zaharra-css {
 				display: inline-block;
-				position: relative;
-				top: -42px;
 			}
 			
 			#iametza-logo-zaharra-ezkerra {
@@ -68,14 +92,15 @@
 			
 			#iametza-logo-berria-css {
 				display: inline-block;
-				margin: 100px 0 25px 0;
+				margin: 20px 0 0 0;
 			}
 			
 			#iametza-logo-berria-oina {
 				 height: 45px;
 				 width: 90px;
+				 margin: 8px 0 0 6px;
 				 border-radius: 0 0 90px 90px;
-				 background: #000;
+				 background-color: #000;
 				 transform: rotate(-10deg);
 			}
 			
@@ -86,9 +111,7 @@
 			#iametza-logo-berria-mitxelina-1 {
 				height: 26px;
 				width: 90px;
-				position: relative;
-				top: -8px;
-				left: -8px;
+				margin: 8px 0 0 0;
 				border-radius: 10px;
 				transform: rotate(-10deg);
 			}
@@ -96,9 +119,7 @@
 			#iametza-logo-berria-mitxelina-2 {
 				height: 26px;
 				width: 90px;
-				position: relative;
-				top: -16px;
-				left: -12px;
+				margin: 8px 0 0 0;
 				border-radius: 10px;
 				transform: rotate(-10deg);
 			}
@@ -106,9 +127,7 @@
 			#iametza-logo-berria-mitxelina-3 {
 				height: 26px;
 				width: 150px;
-				position: relative;
-				top: -24px;
-				left: -42px;
+				margin: 8px 0 0 -30px;
 				border-radius: 10px;
 				transform: rotate(-10deg);
 			}
@@ -116,9 +135,7 @@
 			#iametza-logo-berria-mitxelina-4 {
 				height: 26px;
 				width: 150px;
-				position: relative;
-				top: -32px;
-				left: -42px;
+				margin: 8px 0 0 -30px;
 				border-radius: 10px;
 				transform: rotate(-10deg);
 			}
@@ -126,9 +143,7 @@
 			#iametza-logo-berria-mitxelina-5 {
 				height: 26px;
 				width: 150px;
-				position: relative;
-				top: -40px;
-				left: -42px;
+				margin: 8px 0 0 -30px;
 				border-radius: 10px;
 				transform: rotate(-10deg);
 			}
@@ -136,9 +151,6 @@
 			#iametza-logo-berria-mitxelina-6 {
 				height: 26px;
 				width: 90px;
-				position: relative;
-				top: -48px;
-				left: -12px;
 				border-radius: 10px;
 				transform: rotate(-10deg);
 			}
@@ -148,30 +160,38 @@
 	
 	<body>
 		
-		<div id="iametza-logo-zaharra">
-			<div id="iametza-logo-zaharra-irudia">
-				<img src="img/iametza-logo-zaharra.jpg" />
+		<div id="edukiak">
+			<div class="errenkada">
+				<div class="errenkada-ezkerra">
+					<div id="iametza-logo-zaharra-irudia">
+						<img src="img/iametza-logo-zaharra.jpg" />
+					</div>
+				</div>
+				<div class="errenkada-eskuina">
+					<div id="iametza-logo-zaharra-css">
+						<div id="iametza-logo-zaharra-ezkerra"></div>
+						<div id="iametza-logo-zaharra-eskuina"></div>
+					</div>
+				</div>
 			</div>
-			<div id="iametza-logo-zaharra-css">
-				<div id="iametza-logo-zaharra-ezkerra"></div>
-				<div id="iametza-logo-zaharra-eskuina"></div>
+			<div class="errenkada">
+				<div class="errenkada-ezkerra">
+					<div id="iametza-logo-berria-irudia">
+						<img src="img/iametza-logo-berria.png" />
+					</div>
+				</div>
+				<div class="errenkada-eskuina">
+					<div id="iametza-logo-berria-css">
+						<div id="iametza-logo-berria-mitxelina-6" class="iametza-logo-berria-mitxelina"></div>
+						<div id="iametza-logo-berria-mitxelina-5" class="iametza-logo-berria-mitxelina"></div>
+						<div id="iametza-logo-berria-mitxelina-4" class="iametza-logo-berria-mitxelina"></div>
+						<div id="iametza-logo-berria-mitxelina-3" class="iametza-logo-berria-mitxelina"></div>
+						<div id="iametza-logo-berria-mitxelina-2" class="iametza-logo-berria-mitxelina"></div>
+						<div id="iametza-logo-berria-mitxelina-1" class="iametza-logo-berria-mitxelina"></div>
+						<div id="iametza-logo-berria-oina"></div>
+					</div>
+				</div>
 			</div>
 		</div>
-		
-		<div id="iametza-logo-berria">
-			<div id="iametza-logo-berria-irudia">
-				<img src="img/iametza-logo-berria.png" />
-			</div>
-			<div id="iametza-logo-berria-css">
-				<div id="iametza-logo-berria-mitxelina-6" class="iametza-logo-berria-mitxelina"></div>
-				<div id="iametza-logo-berria-mitxelina-5" class="iametza-logo-berria-mitxelina"></div>
-				<div id="iametza-logo-berria-mitxelina-4" class="iametza-logo-berria-mitxelina"></div>
-				<div id="iametza-logo-berria-mitxelina-3" class="iametza-logo-berria-mitxelina"></div>
-				<div id="iametza-logo-berria-mitxelina-2" class="iametza-logo-berria-mitxelina"></div>
-				<div id="iametza-logo-berria-mitxelina-1" class="iametza-logo-berria-mitxelina"></div>
-				<div id="iametza-logo-berria-oina"></div>
-			</div>
-		</div>
-		
 	</body>
 </html>
